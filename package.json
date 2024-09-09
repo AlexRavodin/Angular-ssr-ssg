@@ -7,7 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:ssg-only": "node dist/ssg-only/server/server.mjs"
+    "serve:ssr:ssg-only": "node dist/ssg-only/server/server.mjs",
+    "build-iis" : "ng build && npm run move-required-files",
+    "move-required-files": "node move-required-files.js"
   },
   "private": true,
   "dependencies": {
