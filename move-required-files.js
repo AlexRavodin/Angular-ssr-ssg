@@ -15,7 +15,7 @@ if (fs.existsSync(browserPath)) {
 
 if (fs.existsSync(mainJsBrowserPath)) {
   fs.renameSync(mainJsBrowserPath, mainJsDistPath);
-  console.log('main.js moved to dist/ssg-only');
+  console.log('start-server.js moved to dist/ssg-only');
 } else {
-  console.error('main.js not found in browser folder');
+  console.error('start-server.js not found in browser folder');
 }
