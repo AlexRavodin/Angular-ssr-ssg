@@ -1,0 +1,3 @@
+/
+/ssg-main
+/ssg-secondary
